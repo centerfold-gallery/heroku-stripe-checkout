@@ -2,16 +2,16 @@
   "private": true,
   "name": "heroku-stripe-checkout",
   "engines": {
-    "node": "0.10.x"
+    "node": "6.3.2"
   },
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "http://github.com/christophercliff/heroku-stripe-checkout"
+    "url": "http://github.com/aft3rlife/heroku-stripe-checkout"
   },
   "scripts": {
     "start": "node ./",
-    "style": "./node_modules/.bin/crispy ./lib/ ./test/",
+    "style": "./node_modules/crispy/node_modules/.bin/eslint -c ./node_modules/crispy/.eslintrc ./lib/ ./test/",
     "test": "npm run style && ./node_modules/.bin/mocha --reporter spec -r should --grep ''"
   },
   "main": "./lib/start",
