@@ -1,11 +1,3 @@
----
-
-# :fire::fire::fire: DEPRECATED :fire::fire::fire:
-
-Use [flatmarket-server-heroku](https://github.com/christophercliff/flatmarket-server-heroku). 
-
----
-
 # heroku-stripe-checkout
 
 A self-hosted service for accepting payments with [Stripe Checkout](https://stripe.com/docs/checkout).

@@ -7,16 +7,16 @@
     "stripe",
     "checkout"
   ],
-  "repository": "https://github.com/christophercliff/heroku-stripe-checkout",
+  "repository": "https://github.com/aft3rlife/heroku-stripe-checkout",
   "success_url": "/uptime",
   "env": {
     "APP_NAME": {
       "description": "The name of the Heroku application.",
-      "value": "jekyll-stripte-checkout"
+      "value": "jekyll-stripe-checkout"
     },
     "CORS_ORIGINS": {
       "description": "A comma-delimited list of origins to accept requests from, e.g., \"https://your_domain.com,https://your_other_domain.com\". See https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS for more info.",
-      "value": "http://localhost,http://jekyll-stripe-test.gitlab.io"
+      "value": "http://jekyll-stripe-test.gitlab.io"
     },
     "CURRENCY": {
       "description": "The currency to use when submitting charges.",
