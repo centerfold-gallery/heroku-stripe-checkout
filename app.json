@@ -12,11 +12,11 @@
   "env": {
     "APP_NAME": {
       "description": "The name of the Heroku application.",
-      "value": "<your_app_name>"
+      "value": "jekyll-stripte-checkout"
     },
     "CORS_ORIGINS": {
       "description": "A comma-delimited list of origins to accept requests from, e.g., \"https://your_domain.com,https://your_other_domain.com\". See https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS for more info.",
-      "value": "<your_cors_origins>"
+      "value": "http://localhost,http://jekyll-stripe-test.gitlab.io"
     },
     "CURRENCY": {
       "description": "The currency to use when submitting charges.",
@@ -24,17 +24,17 @@
     },
     "ERROR_REDIRECT_URI": {
       "description": "The URI to redirect to if the charge fails.",
-      "value": "<your_error_redirect_uri>"
+      "value": "http://jekyll-stripe-test.gitlab.io/error"
     },
     "SENTRY_DSN": {
       "description": "Log application errors to a Sentry instance (optional).",
       "required": false
     },
-    "STRIPE_PUBLISHABLE_KEY": "<your_stripe_publishable_key>",
-    "STRIPE_SECRET_KEY": "<your_stripe_secret_key>",
+    "STRIPE_PUBLISHABLE_KEY": "pk_test_PvSRMgnWOxsFuBVri7wtWa3W",
+    "STRIPE_SECRET_KEY": "sk_test_y4aAFSW8udEUvtNBeAIg8NCV",
     "SUCCESS_REDIRECT_URI": {
       "description": "The URI to redirect to if the charge is successful.",
-      "value": "<your_success_redirect_uri>"
+      "value": "http://jekyll-stripe-test.gitlab.io"
     }
   }
 }
