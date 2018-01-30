@@ -1,13 +1,13 @@
 {
-  "name": "heroku-stripe-checkout",
+  "name": "centerfold-checkout",
   "description": "A self-hosted service for accepting payments with Stripe Checkout.",
-  "website": "https://json.expert/heroku-stripe-checkout",
+  "website": "https://github.com/centerfold-gallery/centerfold-checkout",
   "keywords": [
     "heroku",
     "stripe",
     "checkout"
   ],
-  "repository": "https://github.com/christophercliff/heroku-stripe-checkout",
+  "repository": "https://github.com/centerfold-gallery/centerfold-checkout",
   "success_url": "/uptime",
   "env": {
     "APP_NAME": {
