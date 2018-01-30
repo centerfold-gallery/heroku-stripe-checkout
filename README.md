@@ -14,7 +14,7 @@ A self-hosted service for accepting payments with [Stripe Checkout](https://stri
 
 ### 1. Click "Deploy to Heroku" and enter your configuration details.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/christophercliff/heroku-stripe-checkout)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/centerfold-gallery/centerfold-checkout)
 
 ### 2. Insert the Stripe Checkout markup on your site
 
