@@ -1,14 +1,6 @@
----
-
-# :fire::fire::fire: DEPRECATED :fire::fire::fire:
-
-Use [flatmarket-server-heroku](https://github.com/christophercliff/flatmarket-server-heroku). 
-
----
-
 # heroku-stripe-checkout
 
-A self-hosted service for accepting payments with [Stripe Checkout](https://stripe.com/docs/checkout).
+A self-hosted service for accepting payments with [Stripe Checkout](https://stripe.com/docs/checkout) and providing shipping and billing addresses that are viewable in Stripe.
 
 ## Usage
 
@@ -29,10 +21,11 @@ Using Stripe's [integration](https://stripe.com/docs/checkout#integration-simple
         data-name="YOUR_NAME"
         data-description="YOUR_DESCRIPTION"
         data-amount="YOUR_AMOUNT"
+        data-billing-address="true"
+        data-shipping-address="true"
     ></script>
     <input name="amount" value="YOUR_AMOUNT" type="hidden">
     <input name="description" value="YOUR_DESCRIPTION" type="hidden">
-    <input name="metadata" value="YOUR_METADATA" type="hidden">
 </form>
 ```
 
@@ -59,3 +52,13 @@ See [CONTRIBUTING](https://github.com/christophercliff/heroku-stripe-checkout/bl
 ## License
 
 See [LICENSE](https://github.com/christophercliff/heroku-stripe-checkout/blob/master/LICENSE.md).
+
+
+Maybe in the future: 
+---
+
+# :fire::fire::fire: DEPRECATED :fire::fire::fire:
+
+Use [flatmarket-server-heroku](https://github.com/christophercliff/flatmarket-server-heroku). 
+
+---
