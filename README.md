@@ -54,11 +54,11 @@ See [CONTRIBUTING](https://github.com/christophercliff/heroku-stripe-checkout/bl
 See [LICENSE](https://github.com/christophercliff/heroku-stripe-checkout/blob/master/LICENSE.md).
 
 
-Maybe in the future: 
+Maybe in the future:
 ---
 
 # :fire::fire::fire: DEPRECATED :fire::fire::fire:
 
-Use [flatmarket-server-heroku](https://github.com/christophercliff/flatmarket-server-heroku). 
+Use [flatmarket-server-heroku](https://github.com/christophercliff/flatmarket-server-heroku).
 
 ---
