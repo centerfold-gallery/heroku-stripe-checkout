@@ -35,11 +35,6 @@
     "SUCCESS_REDIRECT_URI": {
       "description": "The URI to redirect to if the charge is successful.",
       "value": "<your_success_redirect_uri>"
-    },
-    "MAIL_SERVICE": "gmail",
-    "MAIL_USER": "<mail_account>",
-    "MAIL_PASSWORD": "Mail password",
-    "MAIL_DESTINATION": "<email_address>"
     }
   }
 }
